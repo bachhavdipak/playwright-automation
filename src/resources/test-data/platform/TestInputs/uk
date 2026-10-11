@@ -1,0 +1,15 @@
+{
+  "apidata":{
+      "inputRequest": " {\"name\":\"Dipak\",\"job\":\"AutomationEngineer\"}"       
+  },
+
+  "graphql": {
+    "inputRequest": {
+      "query": "query GetCountryInfo($countryCode: ID!) { country(code: $countryCode) { name native capital emoji currency languages { code name } } }",
+      "variables": {
+        "countryCode": "BR"
+      }
+    }
+  }
+}
+
